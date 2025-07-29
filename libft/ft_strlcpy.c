@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/25 10:35:15 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/08 19:49:46 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:38:06 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,15 +32,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
-
-// int main() {
-//     char src[] = "Hello, World";
-//     char dst[0] = "";
-
-//     size_t result = ft_strlcpy_(dst, src, sizeof(dst));
-
-//     printf("Copied string: %s\n", dst);
-//     printf("Length of source: %zu\n", result);
-
-//     return 0;
-// }

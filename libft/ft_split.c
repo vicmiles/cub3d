@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/09 14:34:35 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/11 16:00:41 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 12:07:18 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -92,80 +92,3 @@ char	**ft_split(char const *s, char c)
 	rs[i] = 0;
 	return (rs);
 }
-
-// // Функция для печати результатов split
-// void print_split_result(char **result)
-// {
-//     int i = 0;
-//     while (result[i] != NULL)
-//     {
-//         printf("result[%d]: %s\n", i, result[i]);
-//         i++;
-//     }
-// }
-
-// // Основная функция для тестирования ft_split
-// int main()
-// {
-//     char **result;
-//     char *str;
-//     char delimiter;
-
-//     // Тестовый пример 1
-//     str = "hello world this is a test";
-//     delimiter = ' ';
-//     result = ft_split(str, delimiter);
-//     printf("Test 1: \"%s\" split by '%c'\n", str, delimiter);
-//     print_split_result(result);
-
-//     // Освобождение памяти
-//     for (int i = 0; result[i] != NULL; i++)
-//     {
-//         free(result[i]);
-//     }
-//     free(result);
-
-//     // Тестовый пример 2
-//     str = "   leading and trailing spaces   ";
-//     delimiter = ' ';
-//     result = ft_split(str, delimiter);
-//     printf("Test 2: \"%s\" split by '%c'\n", str, delimiter);
-//     print_split_result(result);
-
-//     // Освобождение памяти
-//     for (int i = 0; result[i] != NULL; i++)
-//     {
-//         free(result[i]);
-//     }
-//     free(result);
-
-//     // Тестовый пример 3
-//     str = "split,,by,commas";
-//     delimiter = ',';
-//     result = ft_split(str, delimiter);
-//     printf("Test 3: \"%s\" split by '%c'\n", str, delimiter);
-//     print_split_result(result);
-
-//     // Освобождение памяти
-//     for (int i = 0; result[i] != NULL; i++)
-//     {
-//         free(result[i]);
-//     }
-//     free(result);
-
-//     // Тестовый пример 4
-//     str = "no_delimiters_here";
-//     delimiter = ',';
-//     result = ft_split(str, delimiter);
-//     printf("Test 4: \"%s\" split by '%c'\n", str, delimiter);
-//     print_split_result(result);
-
-//     // Освобождение памяти
-//     for (int i = 0; result[i] != NULL; i++)
-//     {
-//         free(result[i]);
-//     }
-//     free(result);
-
-//     return 0;
-// }

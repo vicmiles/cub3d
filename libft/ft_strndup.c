@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strncmp.c                                       :+:      :+:    :+:   */
+/*   ft_strndup.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/30 14:53:38 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/09 15:18:06 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:38:31 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,11 +27,3 @@ char	*ft_strndup(const char *s, size_t n)
 	dup[len] = '\0';
 	return (dup);
 }
-
-// int main()
-// {
-// 	char *s = "hello world";
-// 	char *ss = ft_strndup(s, 5);
-// 	printf("%s", ss);
-// 	free(ss);
-// }

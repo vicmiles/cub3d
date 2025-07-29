@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 14:09:55 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/08 17:31:48 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:37:34 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,21 +27,3 @@ char	*ft_strchr(const char *s, int c)
 		return (&((char *)s)[i]);
 	return (0);
 }
-
-// int main () {
-//    const char str[] = "https://www.tutorialspoint.com";
-//    const char ch = 't';
-//    char *ret;
-
-//    ret = strchr(str, ch);
-
-//    printf("String after |%c| is - |%s|\n", ch, ret);
-
-//     const char chr = 't';
-//    char *reth;
-
-//    reth = strchr(str, chr);
-
-//    printf("String after |%c| is - |%s|\n", chr, reth);
-//    return(0);
-// }

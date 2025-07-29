@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 14:16:46 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/03 19:56:06 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:39:10 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,17 +25,3 @@ int	ft_tolower(char a)
 	}
 	return (a);
 }
-
-// int main()
-// {
-// 	char ch;
-
-// 	ch = '3';
-// 	printf("%c in uppercase is represented as %c\n",
-// 		ch, tolower(ch));
-//     ch = '3';
-// 	printf("%c in uppercase is represented as %c\n",
-// 		ch, ft_tolower(ch));
-
-// 	return 0;
-// }

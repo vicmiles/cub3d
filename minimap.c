@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   minimap.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/02 11:41:53 by vmileshk          #+#    #+#             */
+/*   Updated: 2025/07/02 11:42:02 by vmileshk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/cub3d.h"
 
 void	cub_miniview(t_game *g)
@@ -32,10 +44,6 @@ int	get_mini_color(t_game *g, int len, int xy[2])
 	color = 0xFF000000;
 	if (xy[0] < len && g->map[xy[1]][xy[0]] == ' ')
 		color = 0xFF000000;
-	// else if (xy[0] < len && g->map[xy[1]][xy[0]] == 'c')
-	// 	color = 0x00FF0000;
-	// else if (xy[0] < len && g->map[xy[1]][xy[0]] == 'o')
-		// color = 0x0000FF00;
 	else if (xy[0] < len && g->map[xy[1]][xy[0]] != '1')
 		color = 0x005E5C64;
 	else if (xy[0] < len)

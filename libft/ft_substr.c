@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/08 20:16:56 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/09 12:47:12 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:39:05 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,13 +40,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	res[i] = '\0';
 	return (res);
 }
-
-// int main()
-// {
-//     char s[] = "Hello world!";
-//     unsigned int start = 2;
-//     size_t len = 5;
-//     char *res = ft_substr(s, start, len);
-//     printf ("%s", res);
-//     return (0);
-// }

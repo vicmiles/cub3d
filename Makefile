@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/07/02 11:41:47 by vmileshk          #+#    #+#              #
+#    Updated: 2025/07/02 12:15:45 by vmileshk         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME	= cub3d
 
 MLX			= libmlx.a
@@ -6,7 +18,7 @@ LIBFT		= libft/libft.a
 SRCS		=  parser.c get_map.c get_next_line.c main.c \
 	   game.c color.c error.c minimap.c my_mlx.c \
 	   player.c raycasting.c render.c text_paint.c utils.c \
-	   color_utils.c finish_mac.c get_next_line_utils.c
+	   color_utils.c finish_linux.c get_next_line_utils.c
 			  
 
 CC			= cc
@@ -52,6 +64,8 @@ $(NAME): $(MLX_LIB) $(LIBFT)
 	@$(CC) $(CFLAGS) -o $(NAME) $(SRCS) $(MLX_INC) $(LIBFT_INC) $(MLX_FLAGS) $(LIBFT)
 	@echo "$(GREEN)[SUCCESS] CUB3D SUCCESSFULLY CREATED!$(RESET)"
 
+bonus: all
+
 clean:
 	@echo "$(RED)DELETING OF LAST VERSION...$(RESET)"
 	@$(MAKE) -C $(MLX_DIR) clean
@@ -63,4 +77,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all clean fclean re
+.PHONY: all clean fclean bonus re

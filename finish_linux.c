@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   finish_linux.c                                     :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/02 11:41:00 by vmileshk          #+#    #+#             */
+/*   Updated: 2025/07/02 12:11:09 by vmileshk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/cub3d.h"
 
 void	free_animation(t_game *g, t_list *start)
@@ -49,9 +61,6 @@ void	cub_end(t_game *g)
 	ft_free_matrix(&g->map);
 	close(g->fd);
 	destroy_images(g);
-	#ifdef __linux__
-    	mlx_destroy_display(g->mlx);
-	#endif
+	mlx_destroy_display(g->mlx_ptr);
 	free(g->mlx_ptr);
 }
-

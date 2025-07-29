@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   color_utils.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/02 11:40:19 by vmileshk          #+#    #+#             */
+/*   Updated: 2025/07/02 11:40:42 by vmileshk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "../include/cub3d.h"
 
 int	ft_stranspncmp(const char *s1, const char *s2, size_t n)
@@ -20,8 +32,9 @@ int	ft_stranspncmp(const char *s1, const char *s2, size_t n)
 
 int	ft_matranspixlen(char **matrix)
 {
-	int	len = 0;
+	int	len;
 
+	len = 0;
 	if (!matrix)
 		return (0);
 	while (matrix[len])

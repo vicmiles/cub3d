@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: fortytwo <fortytwo@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/07/03 19:19:18 by thrychka          #+#    #+#             */
-/*   Updated: 2025/06/22 19:56:33 by fortytwo         ###   ########.fr       */
+/*   Created: 2025/07/02 11:34:33 by vmileshk          #+#    #+#             */
+/*   Updated: 2025/07/02 11:34:41 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ int	ft_atoi(const char *str)
 	}
 	return (num * res);
 }
-
-// int main () {
-//    int val;
-//    char str[20];
-
-//    val = ft_atoi("");
-//    printf("String value = %s, Int value = %d\n", str, val);
-
-//    return(0);
-// }

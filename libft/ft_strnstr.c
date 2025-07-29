@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/03 19:18:48 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/08 19:40:42 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:38:37 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }
-//  int main () {
-//     const char haystack[20] = "TutorialsPoint";
-//     const char needle[10] = "";
-//     char *result;
-//     result = ft_strnstr(haystack, needle, 3);
-//     printf("The substring is: %s\n", result);
-//     return(0);
-// }

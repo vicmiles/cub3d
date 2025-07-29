@@ -1,3 +1,15 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/07/02 11:39:37 by vmileshk          #+#    #+#              #
+#    Updated: 2025/07/02 11:54:27 by vmileshk         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
 NAME = libft.a
 
 SRC_PATH = ./
@@ -41,7 +53,7 @@ SRC_NAME =	ft_atoi.c \
 			ft_strrncmp.c \
 			ft_countchar.c \
 			ft_lstadd_back.c \
-			ft_lstnew.c \
+			ft_lstnew.c
 
 SRC = $(addprefix $(SRC_PATH), $(SRC_NAME))
 

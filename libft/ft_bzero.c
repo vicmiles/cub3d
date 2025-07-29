@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 15:42:57 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/08 16:34:11 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:34:49 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ void	ft_bzero(void *s, size_t n)
 		i++;
 	}
 }
-
-// int main () {
-//    char str[50] = "This is string.h library function";
-//    printf("%s\n",str);
-//    ft_bzero(str, 7);
-//    printf("%s\n",str);
-//    return(0);
-// }

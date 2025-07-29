@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   my_mlx.h                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/07/02 11:34:10 by vmileshk          #+#    #+#             */
+/*   Updated: 2025/07/02 11:34:20 by vmileshk         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #ifndef MY_MLX_H
 
 # define MY_MLX_H
@@ -27,6 +39,6 @@ void			my_mlx_area_put(t_img *d, t_vector p, t_vector dim, int c);
 t_img			*mlx_load_img(void *ptr, char *path);
 void			mlx_img_to_img(int p[2], t_img img[2], int c1);
 void			mlx_draw_vline(t_img img, int i, int j[2], int color);
-t_vector	ft_newvector(int x, int y);
+t_vector		ft_newvector(int x, int y);
 
 #endif

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/09 14:42:58 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/11 16:15:06 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:35:47 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,8 +15,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <assert.h>
-// #include "ft_strlcpy.c"
-// #include "ft_strlen.c"
 
 int	get_num_length(int n)
 {
@@ -78,17 +76,3 @@ char	*ft_itoa(int n)
 	to_str(ptr, length, n);
 	return (ptr);
 }
-
-// // Driver program to test implementation of itoa()
-// int main()
-// {
-//     printf("Number: %d\nBase: %d\tConverted String: %s\n",
-//            1567, 10, ft_itoa(1567));
-//     printf("Base: %d\t\tConverted String: %s\n", 2,
-//            ft_itoa(1567));
-//     printf("Base: %d\t\tConverted String: %s\n", 8,
-//            ft_itoa(1567));
-//     printf("Base: %d\tConverted String: %s\n", 16,
-//            ft_itoa(1567));
-//     return 0;
-// }

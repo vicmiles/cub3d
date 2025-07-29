@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/09 13:29:11 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/11 15:11:22 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:38:56 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(str, &s1[start], end - start + 2);
 	return (str);
 }
-
-// int main()
-// {
-//     char const s1[] = "Hello";
-//     char const s2[] = "ll";
-//     char const *res = ft_strtrim(s1, s2);
-//     printf("%s", res);
-// }

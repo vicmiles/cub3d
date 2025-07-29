@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strrchr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: thrychka <thrychka@student.42.fr>          +#+  +:+       +#+        */
+/*   By: vmileshk <vmileshk@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/19 13:57:58 by thrychka          #+#    #+#             */
-/*   Updated: 2024/07/11 16:01:05 by thrychka         ###   ########.fr       */
+/*   Updated: 2025/07/02 11:38:45 by vmileshk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,30 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-// int main()
-// {
-// 	// initializing string
-// 	char str[] = "Geeksforeeks";
-
-// 	// character to be searched
-// 	char chr = 'e';
-
-// 	// Storing pointer returned by
-// 	char* ptr = ft_strrchr(str, chr);
-
-//     printf("%s", ptr);
-
-//     	// initializing string
-// 	char strs[] = "Geeksforeeks";
-
-// 	// character to be searched
-// 	char ch = 'e';
-
-// 	// Storing pointer returned by
-// 	char* pt = ft_strrchr(strs, ch);
-
-//     printf("%s", pt);
-
-// 	return 0;
-// }
